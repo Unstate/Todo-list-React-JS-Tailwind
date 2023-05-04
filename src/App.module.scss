@@ -1,0 +1,23 @@
+.page {
+    @apply w-[100%] h-[100vh];
+}
+
+.todoForm {
+    background: -webkit-linear-gradient(90deg, #00a1e6,#da61ea,#b800eb);
+    background: linear-gradient(90deg, #00a1e6,#da61ea,#b800eb);
+    @apply m-auto my-[50px] w-[50%] bg-cyan-500 border rounded-[50px] border-cyan-500;
+
+    .todo {
+        @apply flex justify-center space-x-[30px] my-[50px];
+    }
+
+    button {
+        @apply text-white cursor-pointer;
+    }
+
+    .ownTodos {
+        @apply pl-[80px] text-white;
+    }
+
+    
+}

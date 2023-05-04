@@ -1,0 +1,21 @@
+.ownTodos {
+    @apply w-[80%] m-auto my-[20px]
+    flex justify-between px-[20px]
+    py-[20px] border rounded-lg text-white;
+
+    .buttonsContainer {
+        @apply flex space-x-[20px] items-center;
+
+        .someButton {
+            @apply cursor-pointer;
+        }
+    }
+}
+
+.completed {
+    @apply line-through;
+}
+
+
+
+

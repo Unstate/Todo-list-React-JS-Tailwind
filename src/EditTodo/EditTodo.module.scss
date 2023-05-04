@@ -1,0 +1,11 @@
+.pageContainer {
+    @apply flex justify-center items-center space-x-[20px] text-white;
+
+    .inputContainer {
+        @apply text-black;
+    }
+
+    .buttonContainer {
+        @aplly cursor-pointer;
+    }
+}
